@@ -3,8 +3,6 @@ def gcd(a, b):
         return b
     return gcd(b%a , a)
 
-
-
 t = int(input())
 while(t > 0):
     n, m, k = [int(x) for x in input().split()]
