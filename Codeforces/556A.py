@@ -1,0 +1,5 @@
+n = int(input())
+s = input()
+one = s.count("1")
+zero = s.count("0")
+print(n - (2 * min(one, zero)))
